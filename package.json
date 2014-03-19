@@ -1,0 +1,32 @@
+{
+  "name": "grunt-seleniuminstall",
+  "version": "0.0.1",
+  "description": "A tool to generate a selenium-install file from cli.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive test/spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeropaper/grunt-seleniuminstall.git"
+  },
+  "keywords": [
+    "grunt",
+    "plugin",
+    "db",
+    "setup",
+    "cli",
+    "prompt"
+  ],
+  "author": "Valentin Vago <zeropaper@irata.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeropaper/grunt-seleniuminstall/issues"
+  },
+  "homepage": "https://github.com/zeropaper/grunt-seleniuminstall",
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "mocha": "^1.17.1"
+  },
+  "dependencies": {}
+}
